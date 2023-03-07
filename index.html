@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/styles.min.css" />
+		<title>Zapravka</title>
+	</head>
+	<body>
+		<section class="modal modal_burger">
+			<div class="modal__back"></div>
+			<div class="burger__content burger-menu">
+				<button class="burger-menu__cross">
+					<img src="img/modal/burger/cross.svg" alt="закрыть">
+				</button>
+				<a href="#about-us" class="burger-menu__link">О нас</a>
+				<a href="#advantages" class="burger-menu__link">Преимущества</a>
+				<a href="#schema" class="burger-menu__link">Работа</a>
+				<a href="#partners" class="burger-menu__link">Партнеры</a>
+				<a href="#qrcode" class="burger-menu__link">Как начать?</a>
+			</div>
+		</section>
+
+		<section class="modal modal_qrcode">
+			<div class="modal__back"></div>
+			<div class="modal__content qrcode-modal">
+				<a href="https://t.me/ZapravkaCoffeebot" target="_blank">
+					<img
+						src="img/qrcode/qrcode.png"
+						alt="QR код"
+						class="qrcode-modal__image"
+				/></a>
+				<p class="qrcode-modal__text">
+					Перейдите в бота по QR-коду, заполните форму и ожидайте скорой
+					обратной связи!
+				</p>
+			</div>
+		</section>
+
+		<section class="modal modal_profit">
+			<div class="modal__back"></div>
+			<div class="modal__content profit-modal">
+				<h3 class="profit-modal__title">Доход</h3>
+				<div class="profit-modal__variants">
+					<div class="profit-variant">
+						<h5 class="profit-variant__title">
+							При минимальной выдаче 12 стаканов в день:
+						</h5>
+						<p class="profit-variant__text">
+							Доход от 863 264 руб за 3 года до 2 410 880 руб за 10 лет
+						</p>
+					</div>
+					<div class="profit-variant">
+						<h5 class="profit-variant__title">
+							При средней выдаче 15-16 стаканов в день:
+						</h5>
+						<p class="profit-variant__text">
+							Доход от 1 289 648 руб за 3 года до 3 832 160 руб за 10 лет
+						</p>
+					</div>
+					<div class="profit-variant">
+						<h5 class="profit-variant__title">
+							При реалистичной выдаче 20 стаканов в день:
+						</h5>
+						<p class="profit-variant__text">
+							Доход от 1 716 032 руб за 3 года до 5 253 440 руб за 10 лет
+						</p>
+					</div>
+					<div class="profit-variant">
+						<h5 class="profit-variant__title">
+							При выдаче 80 стаканов в день:
+						</h5>
+						<p class="profit-variant__text">
+							Доход от 8 111 792 руб за 3 года до 26 572 640 руб за 10 лет P.S.
+							в нашей практике одна точка приносила 97 стаканов в день на пике
+						</p>
+					</div>
+				</div>
+				<div class="profit-modal__triggers">
+					<div class="profit-trigger">
+						<h5 class="profit-trigger__title">1. Разделение рисков</h5>
+						<p class="profit-trigger__text">
+							15-20 инвесторов объединяются в общие пулы Все риски, доходы и
+							расходы делятся одинаково между участниками пула в зависимости от
+							количества приобретенных стоек
+						</p>
+					</div>
+					<div class="profit-trigger">
+						<h5 class="profit-trigger__title">2. Распределение прибыли</h5>
+						<p class="profit-trigger__text">
+							Если хотя бы одна стойка в пуле отработает больше 12 стаканов в день, все участники гарантированно получат доходность выше 30%
+						</p>
+					</div>
+					<div class="profit-trigger">
+						<h5 class="profit-trigger__title">3. Распределение расходов</h5>
+						<p class="profit-trigger__text">
+							Все расходы (на закупку ингредиентов, обслуживание и т.д.)
+							распределяются одинаково поровну между всеми участниками пула
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="modal modal_pool">
+			<div class="modal__back"></div>
+			<div class="modal__content investor-pool">
+				<h3 class="investor-pool__title">Условия входа в пул со скидкой 20%</h3>
+
+				<div class="investor-pool__columns">
+					<div class="investor-pool-terms">
+						<h4 class="investor-pool-terms__title">Как получить скидку?</h4>
+						<div class="investor-pool-terms__text">
+							<div class="investor-pool-terms__inner">
+								<p>
+									По договору берем на себя обязательства поставить стойку в
+									течение 2х месяцев
+								</p>
+								<p>
+									За каждый день просрочки выплачиваем инвестору 0,1% от
+									стоимости стойки (~500 руб./день)
+								</p>
+								<p>
+									Сегодня мы можем продать стойку со скидкой, но с
+									обязательствами пролонгированной поставки
+								</p>
+							</div>
+							<div class="investor-pool-terms__inner">
+								<p>
+									Пример. Как купить стойку со скидкой 20%. Вы покупаете стойку
+									за 400 000 руб.*
+								</p>
+								<p>
+									Не позже, чем через 1 год мы поставляем стойку согласно
+									договору
+								</p>
+								<p>
+									*Скидка составляет 100 000 руб. из расчета 10 000 руб. за
+									каждый месяц простоя
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="investor-pool-price">
+						<h5 class="investor-pool-price__title">
+							Основная стоимость стойки
+						</h5>
+						<p class="investor-pool-old-price">500.000 рублей</p>
+						<h5 class="investor-pool-price__title">Стоимость со скидкой</h5>
+						<p class="investor-pool-new-price">400.000 рублей</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="modal modal_investor">
+			<div class="modal__back"></div>
+			<div class="modal__content investor-modal">
+				<h3 class="investor-modal__title">Скидки крупным инвесторам</h3>
+
+				<div class="investor-modal__amount">
+					<div class="investor-item">
+						<h5 class="investor-item__title">При покупке от 3-х стоек:</h5>
+						<p class="investor-item__text">Стоимость: 475 000 рублей</p>
+					</div>
+					<div class="investor-item">
+						<h5 class="investor-item__title">При покупке от 10-ти стоек:</h5>
+						<p class="investor-item__text">Стоимость: 425 000 рублей</p>
+					</div>
+					<div class="investor-item">
+						<h5 class="investor-item__title">При покупке от 15-ти стоек:</h5>
+						<p class="investor-item__text">
+							Стоимость обсуждается индивидуально
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<header class="header">
+			<div class="container">
+				<nav class="nav">
+					<div class="nav__logo">
+						<img src="img/logo.png" alt="Zapravka логотип" />
+						<span>Zapravka</span>
+					</div>
+
+					<div class="nav__menu">
+						<a href="#about-us" class="nav__link">О нас</a>
+						<a href="#advantages" class="nav__link">Преимущества</a>
+						<a href="#schema" class="nav__link">Работа</a>
+						<a href="#partners" class="nav__link">Партнеры</a>
+						<a href="#qrcode" class="nav__link">Как начать?</a>
+					</div>
+
+					<div class="nav__burger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</nav>
+
+				<div class="header__content">
+					<h1 class="header__title">
+						Мы не обещаем пассивный доход, а <span>создаем его!</span>
+					</h1>
+					<p class="header__text">кофестойки Zapravka</p>
+					<button class="header__button"><span>Подать заявку</span></button>
+				</div>
+
+				<div class="header__image">
+					<img src="img/header/image.png" alt="Кофеварня" />
+				</div>
+			</div>
+		</header>
+		<a id="about-us"></a>
+		<section class="about-us">
+			<div class="container">
+				<h2 class="about-us__title">О нас</h2>
+
+				<div class="about-us__content">
+					<div class="about-us__inner">
+						<p class="about-us__about-start">
+							В 2020 году мы начали бизнес с того, что закупали кофейные стойки
+							по франшизе и столкнулись с рядом проблем. Вместо обещанного
+							«готового бизнеса на полностью пассивном доходе» нам пришлось
+							дополнительно выстраивать целую систему обслуживания бизнеса:
+						</p>
+
+						<div class="about-us__more">
+							<p class="about-us__text">
+								Прежде чем создать свой бизнес, мы купили 20 кофейных стоек, 20
+								различных франшиз, и с уверенностью можем заявить о том, что
+								компании просто зарабатывают на продаже кофейных стоек
+							</p>
+							<p class="about-us__text">
+								Мы представляем компанию полного цикла, то есть не только
+								продаем кофейные стойки, но и выполняем все услуги, которые
+								необходимы для запуска бизнеса
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<a id="advantages"></a>
+		<section class="advantages">
+			<div class="container">
+				<h2 class="advantages__title">Преимущества</h2>
+
+				<div class="triggers">
+					<div class="trigger">
+						<h5 class="trigger__title">Высокая доходность</h5>
+						<p class="trigger__text">
+							Гарантия продажи от 12 стаканов в день приводит к 30% доходности
+						</p>
+					</div>
+					<div class="trigger">
+						<h5 class="trigger__title">Низкий порог входа в стратегию</h5>
+						<p class="trigger__text">
+							Предлагаем самый низкий порог входа 500 000 рублей
+						</p>
+					</div>
+					<div class="trigger">
+						<h5 class="trigger__title">Абсолютно уникальный продукт</h5>
+						<p class="trigger__text">
+							Единственная компания на рынке, которая осуществляет полное
+							обслуживание кофейных стоек
+						</p>
+					</div>
+					<div class="trigger">
+						<h5 class="trigger__title">Незалоговый займ</h5>
+						<p class="trigger__text">
+							Мы не занимаем деньги на бизнес под непонятные цели Мы продаем
+							кофейную стойку в собственность каждому инвестору
+						</p>
+					</div>
+				</div>
+
+				<div class="advantages__blocks">
+					<div class="advantages-item">
+						<h4 class="advantages-item__title">Отличная доходность</h4>
+						<div class="advantages-item__text">
+							<p>Ежегодная инфляция приводит к увеличению цены</p>
+							<p>
+								Мы более чем уверены, что с годами стоимость будет увеличиваться
+							</p>
+						</div>
+						<button
+							class="advantages-item__link advantages-item__link_profit advantages-item__link_bottom"
+						>
+							подробнее
+						</button>
+					</div>
+					<div class="advantages-item">
+						<h4 class="advantages-item__title">Скидки</h4>
+						<div class="advantages-item__text">
+							<p>
+								Можно войти в пул со скидкой 20%
+								<button
+									class="advantages-item__link advantages-item__link_pool"
+								>
+									Условия
+								</button>
+							</p>
+							<p>
+								Делаем скидки крупным инвесторам
+								<button
+									class="advantages-item__link advantages-item__link_investor"
+								>
+									Подробнее
+								</button>
+							</p>
+						</div>
+					</div>
+				</div>
+				<p class="advantages__text">
+					Мы не претендуем на звание кампании, которая первая придумала стойки,
+					но мы единственные кто не обещает, а создает вам пассивный доход!
+				</p>
+			</div>
+		</section>
+		<a id="schema"></a>
+		<section class="schema">
+			<div class="container">
+				<h2 class="schema__title">Схема работы</h2>
+
+				<div class="schema__blocks">
+					<div class="schema-block">
+						<h4 class="schema-block__title">
+							Заключаем два договора с инвестором
+						</h4>
+						<p class="schema-block__text">
+							-Договор купли-продажи<br />-Договор на агенсткое управление
+						</p>
+					</div>
+					<div class="schema-block schema-block_right">
+						<h4 class="schema-block__title">Собираем пул минимум на 3 года</h4>
+						<p class="schema-block__text">
+							Через 3 года наступает окупаемость, и инвестор получает прибыль
+						</p>
+					</div>
+					<div class="schema-block">
+						<h4 class="schema-block__title">Условия работы в пуле</h4>
+						<p class="schema-block__text">
+							В течение 3 лет инвестор имеет право продать кофестойку только
+							внутри пула. Спустя 3 года ее можно продать на внешнем рынке либо
+							продолжить работать в пуле<br /><br />Все кофестойки в пуле
+							работают под нашим брендом Обслуживание и заправка ингредиентами
+							согласно регламенту
+						</p>
+					</div>
+					<div class="schema-block schema-block_bottom">
+						<h4 class="schema-block__title">Работа после</h4>
+						<ul class="schema-block__list">
+							<li class="schema-block-item">
+								<h5 class="schema-block-item__title">1. Дебрендирование</h5>
+								<p class="schema-block-item__text">
+									Происходит дебрендирование, после чего инвестор работает так,
+									как хочет
+								</p>
+							</li>
+							<li class="schema-block-item">
+								<h5 class="schema-block-item__title">
+									2. Продолжить работать под нашим брендом
+								</h5>
+								<p class="schema-block-item__text">
+									Инвестор вправе самостоятельно выбирать локацию, но обязан
+									соблюдать регламент. По согласованию и проведению проверки
+									качества, возможна закупка иных ингредиентов
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="guarantees">
+			<div class="container">
+				<h2 class="guarantees__title">Гарантии</h2>
+
+				<div class="guarantees-block">
+					<h3 class="guarantees-block__title">Гарантия на кофемашину</h3>
+					<p class="guarantees-block__text">
+						Гарантия от производителя - 5 лет. При должном обслуживании
+						кофемашина может работать и 5, и 10, и 30 лет, и все остальное время
+					</p>
+				</div>
+				<div class="guarantees-block">
+					<h3 class="guarantees-block__title">
+						Гарантируем возврат инвестиций
+					</h3>
+					<p class="guarantees-block__text">
+						Спустя 3 года инвестор может с нашей помощью выйти из сделки, продав кофейную стойку на внутреннем или внешнем рынке
+					</p>
+				</div>
+				<div class="guarantees-block">
+					<h3 class="guarantees-block__title">
+						Мы, как кампания, можем выкупить стойку у инвестора по следующей
+						формуле, возвратив все инвестиции
+					</h3>
+					<p class="guarantees-block__text">
+						Сумма инвестиций - Сумма дохода от продаж за срок использования =
+						Сумма выкупа компанией
+					</p>
+				</div>
+				<div class="guarantees-block">
+					<h3 class="guarantees-block__title">Гарантия 12 стаканов в день</h3>
+					<p class="guarantees-block__text">
+						Берем на себя обязательства по выполнению плана на выдачу не менее
+						12 стаканов в день
+					</p>
+				</div>
+			</div>
+		</section>
+		<section class="dark">
+			<section class="risks">
+				<div class="container">
+					<h2 class="risks__title">Возможные риски</h2>
+
+					<div class="risks__blocks">
+						<div class="risk">
+							<h3 class="risk__title">Утрата кофестойки</h3>
+
+							<ul class="risk__content">
+								<li class="risk__text">
+									Устанавливаем кофейные стойки в проходных местах, а так же
+									устанавливаем камеры видеонаблюдения
+								</li>
+								<li class="risk__text">
+									В случае наступления риска, утрата кофестойки становится
+									расходом пула. На пул выкупается еще одна кофемашина (б.у.),
+									стойка собирается и устанавливается обратно инвестору
+								</li>
+							</ul>
+						</div>
+
+						<div class="risk">
+							<h3 class="risk__title">Люди перестали пить кофе</h3>
+
+							<ul class="risk__content">
+								<li class="risk__text">
+									Самая низкая себестоимость за 1 стакан кофе. Максимальная
+									маржинальность
+								</li>
+								<li class="risk__text">
+									Какую бы цену ни назначил любой кофешоп, мы всегда назначим
+									цену ниже, при этом качество у нас будет выше
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<a id="partners"></a>
+			<section class="partners">
+				<div class="container">
+					<h2 class="partners__title">Наши партнеры</h2>
+
+					<h3 class="partners__subtitle">Эксклюзивные контракты</h3>
+					<div class="partners__links">
+						<a
+							href="https://vk.com/magnitretail"
+							target="_blank"
+							class="partners__link"
+						>
+							<img src="img/partners/01.png" alt="Магнит" />
+						</a>
+						<a href="https://5ka.ru" target="_blank" class="partners__link">
+							<img src="img/partners/02.png" alt="Пятёрочка" />
+						</a>
+						<a
+							href="https://wagnercentr.ru"
+							target="_blank"
+							class="partners__link"
+						>
+							<img src="img/partners/03.png" alt="ЧВК Вагнер Центр" />
+						</a>
+					</div>
+
+					<h3 class="partners__subtitle">Перспективы</h3>
+
+					<div class="partners__blocks">
+						<div class="partners__inner">
+							<p class="partners__text partners__text_inner">
+								Начинаем сотрудничество с Леруа Мерлен
+							</p>
+							<p class="partners__text partners__text_inner">
+								Широкий выбор выгодных локаций
+							</p>
+						</div>
+						<p class="partners__text">
+							Эксклюзивные контракты с администрацией Ленинградской области
+						</p>
+						<div class="partners__triggers">
+							<p class="partners__trigger">
+								Мы привлекли уже более 15 инвесторов
+							</p>
+							<p class="partners__trigger">40шт. собственных стоек</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="about-author">
+				<div class="container container_about-author">
+					<div class="about-author__ceo">
+						<img
+							src="img/about-author/ceo.png"
+							alt="Владелец Валерий Костренко"
+						/>
+						<p class="about-author__text">
+							Валерий Костренко <br />Владелец Zapravka
+						</p>
+					</div>
+					<img
+						src="img/about-author/logo.png"
+						alt="Zapravka Coffee логотип"
+						class="about-author__logo"
+					/>
+				</div>
+			</section>
+		</section>
+		<a id="qrcode"></a>
+		<section class="qrcode">
+			<div class="container container_qrcode">
+				<div class="qrcode__content">
+					<h3 class="qrcode__title">Начать сотрудничество просто</h3>
+					<p class="qrcode__text">
+						Перейдите в бота по QR-коду, заполните форму и ожидайте скорой
+						обратной связи!
+					</p>
+				</div>
+
+				<a
+					href="https://t.me/ZapravkaCoffeebot"
+					target="_blank"
+					class="qrcode__image"
+				>
+					<img src="img/qrcode/qrcode.png" alt="QR код" />
+				</a>
+			</div>
+		</section>
+
+		<script src="js/app.min.js"></script>
+	</body>
+</html>
