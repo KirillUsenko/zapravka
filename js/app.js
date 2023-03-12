@@ -1,5 +1,5 @@
 const qrCodeModal = document.querySelector('.modal_qrcode')
-const qrCodeButton = document.querySelector('.header__button')
+const qrCodeButtons = document.querySelectorAll('.header__button')
 
 const profitModal = document.querySelector('.modal_profit')
 const profitButton = document.querySelector('.advantages-item__link_profit')
@@ -55,11 +55,13 @@ modalBacks.forEach(back => {
 })
 
 burgerLinks.forEach(link => {
-	console.log(link)
 	link.addEventListener('click', () => deactivateModal(burgerModal))
 })
 
-qrCodeButton.addEventListener('click', () => activateModal(qrCodeModal))
+
+qrCodeButtons.forEach(button => {
+	button.addEventListener('click', () => activateModal(qrCodeModal))
+})
 investorButton.addEventListener('click', () => activateModal(investorModal))
 profitButton.addEventListener('click', () => activateModal(profitModal))
 poolButton.addEventListener('click', () => activateModal(poolModal))
